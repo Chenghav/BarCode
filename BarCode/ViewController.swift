@@ -48,7 +48,6 @@ class ViewController: UIViewController {
 //    }
     
 // this is for the second commit
-// This is the second try
     
     func generateQRCode(from string: String) -> UIImage? {
            let data = string.data(using: .utf8)
