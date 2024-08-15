@@ -46,6 +46,10 @@ class ViewController: UIViewController {
 //
 //        return nil
 //    }
+    
+// this is for the second commit
+// This is the second try
+    
     func generateQRCode(from string: String) -> UIImage? {
            let data = string.data(using: .utf8)
            guard let qrFilter = CIFilter(name: "CIQRCodeGenerator") else { return nil }
